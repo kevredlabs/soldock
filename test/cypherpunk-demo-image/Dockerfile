@@ -9,4 +9,4 @@ LABEL org.opencontainers.image.source="https://github.com/kevredlabs/skelz-hacka
 LABEL org.opencontainers.image.version="1.0.0"
 RUN apt-get update && apt-get install -y --no-install-recommends figlet && rm -rf /var/lib/apt/lists/*
 ENTRYPOINT ["figlet"]
-CMD ["Hello SuperteamFR!"]
+CMD ["Hello SuperteamFR !"]
